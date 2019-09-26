@@ -1,6 +1,8 @@
 # coding:utf-8
 
-from ListNode import *
+
+from thor.leetcode.linklist.ListNode import ListNode
+
 
 class Solution(object):
 	def deleteDuplicates(self, head: ListNode) -> ListNode:

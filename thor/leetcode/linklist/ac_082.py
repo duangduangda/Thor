@@ -1,6 +1,8 @@
 # coding:utf-8
 
-from ListNode import * 
+
+from thor.leetcode.linklist.ListNode import ListNode
+
 
 class Solution(object):
     """迭代法，使用哑结点和快慢指针"""

@@ -1,7 +1,8 @@
 # coding:utf-8
 
-from ListNode import *
-    
+from thor.leetcode.linklist.ListNode import ListNode
+
+
 class Solution(object):
     """迭代法，使用快慢指针，最后两个指针遇上则存在环"""
     def hasCycle(self, head: ListNode) -> bool:
