@@ -5,4 +5,10 @@ class ListNode(object):
         self.val = x
         self.next = None
 
-  
+    def travel(self):
+        cur = self
+        while cur:
+            print(cur.val, end="  ")
+            cur = cur.next
+        print()
+
