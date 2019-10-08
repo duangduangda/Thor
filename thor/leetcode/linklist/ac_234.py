@@ -5,8 +5,8 @@ from thor.leetcode.linklist.ListNode import ListNode
 class Solution(object):
 	def isPalindrome(self, head: ListNode) -> bool:
 		"""
-			1. 使用快慢指针，先找到链表的中间结点
-			2. 反转链表的前半部分
+			1. 使用快慢指针，先找到链表的中间结点,参考ac_142
+			2. 反转链表的前半部分，可参考ac_206
 			3. 回文校验
 		:param head:
 		:return:
