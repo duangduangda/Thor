@@ -10,7 +10,9 @@ class Solution(object):
 
 	def oddEvenList(self, head: ListNode) -> ListNode:
 		"""
-			可参考ac_083
+			可参考ac_083,初始设置两个指针，一个指向奇数，一个指向偶数
+			然后让奇数的指针连接下一个奇数，偶数指针连接下一个偶数，
+			最后将两者进行连接
 		:param head:
 		:return:
 		"""
@@ -24,5 +26,6 @@ class Solution(object):
 			odd = odd.next
 			even.next = odd.next
 			even = even.next
+		"""连接奇偶链表"""
 		odd.next = p
 		return head
