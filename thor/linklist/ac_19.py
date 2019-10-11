@@ -1,5 +1,5 @@
 # coding: utf-8
-from thor.leetcode.linklist.ListNode import ListNode
+from thor.linklist.ListNode import ListNode
 
 """
 	使用双指针法解题。设置两个指针，first,second，先另first指针从头结点开始移动n位，
@@ -22,7 +22,7 @@ class Solution(object):
 		while n != 0:
 			first = first.next
 			n -= 1
-		
+
 		if not first:
 			return head.next
 		while first.next:

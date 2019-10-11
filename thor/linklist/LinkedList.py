@@ -1,5 +1,5 @@
 # coding:utf-8
-from thor.leetcode.linklist.ListNode import ListNode
+from thor.linklist.ListNode import ListNode
 
 
 class LinkedList(object):
@@ -24,6 +24,6 @@ class LinkedList(object):
 	def to_string(self):
 		cur = self.head
 		while cur:
-			print(cur.val, end="    ")
+			print(cur.val, end = "    ")
 			cur = cur.next
 		print()

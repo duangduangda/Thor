@@ -1,7 +1,7 @@
 # coding:utf-8
 
 
-from thor.leetcode.linklist.ListNode import ListNode
+from thor.linklist.ListNode import ListNode
 
 
 class Solution(object):
