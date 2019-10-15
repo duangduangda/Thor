@@ -21,6 +21,7 @@ class Solution(object):
 					l2 = l2.next
 				p.next = ListNode(temp % 10)
 				p = p.next
+				"""进位处理"""
 				temp //= 10
 
 			if temp:

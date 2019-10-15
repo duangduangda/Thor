@@ -21,12 +21,10 @@ class Solution(object):
 
 
 def main():
-	first = ListNode(1)
-	second = ListNode(3)
-	third = ListNode(2)
-	first.next = second
-	second.next = third
-	first.travel()
+	head = ListNode(1).append(3).append(2)
+	head.travel()
+	s = Solution()
+	s.reverse_list(head).travel()
 
 
 if __name__ == '__main__':
